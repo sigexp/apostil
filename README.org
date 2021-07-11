@@ -1,0 +1,16 @@
+** tl;dr
+   Apostil is a minor mode for Emacs. It allows to add buffer-local notes to
+   words.
+** Usage
+*** =M-s a .= (apostil-add-note-at-point)
+    Add note for word at point.
+*** =M-s a w= (apostil-add-note-for-word)
+    Add note for arbitrary word.
+*** =M-s a RET= (apostil-get-note-at-point)
+    Look up notes for word at point
+*** =M-s a g= (apostil-get-note-for-word)
+    Look up notes for arbitrary word.
+*** =M-s a <backspace>= (apostil-unset-note-at-point)
+    Unset notes for word at point.
+*** =M-s a u= (apostil-unset-note-for-word)
+    Unset notes for arbitrary word.
